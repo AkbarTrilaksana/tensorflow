@@ -10,3 +10,4 @@ setuptools
 # Test dependencies which don't exist on Windows
 jax ~= 0.3.14
 jaxlib ~= 0.3.14
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
