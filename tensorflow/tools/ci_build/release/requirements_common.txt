@@ -36,3 +36,4 @@ scipy ~= 1.7.2  # NOTE: Earliest version for Python 3.10
 # This is usually vendored in setuptools but ensure it gets installed in CI anyway
 # No bound here, we prefer the one in setuptools
 packaging
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
